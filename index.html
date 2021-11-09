@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>X-Gym</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='main.js'></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+</head>
+<style>
+  .bg-green {
+    background-color: #0AA351;
+  }
+  .bg-card{
+    background-color: #131415;
+    background-color: #3E3E3E;
+    background-color: #2A2A2A;
+  }
+  .carousel-item img {
+    max-height: 800px;
+    font-weight: 100;
+  }
+
+  .carousel-control-next-icon {
+    background-color: black;
+    color: blanchedalmond
+  }
+
+  .carousel-control-prev-icon {
+    background-color: black;
+    color: blanchedalmond
+  }
+
+  .bg-background-black {
+    background-color: 202020;
+  }
+  .btn-oder{
+    background-color: #f23849;
+  }
+</style>
+<!-- The scrollable area -->
+
+<body style="background-color: #202020;" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="navbar-brand" href="#home">Ana Sayfa</a>
+        </li>
+      </ul>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutUs">Hakkımızda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#opportunities">İmkanlar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#price">Paketler</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">iletişim</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <a class="nav-link text-white" href="javascript:void(0)">Giriş Yap</a>
+
+          <button class="btn btn-primary btn-sm" type="button">Kayıt Ol</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Header Starts -->
+  <div id="home">
+    <div class="p-5 bg-green text-white text-center">
+      <br><br>
+      <h1>X-fit</h1>
+      <h3>Spor ve Yaşam Merkezi</h3>
+        <p>%50'ye varan indirimler</p>
+    </div>
+  </div>
+  <!-- Header Ends-->
+  <!--About Us starts-->
+  <div id="aboutUs"><br><br>
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <div class="thumbnail">
+          <a href="#">
+            <img src="./images/aboutus.jpg" alt="Lights" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="thumbnail">
+          <a href="#">
+            <img src="./images/aboutus2.jpg" alt="Nature" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="thumbnail">
+          <a href="#">
+            <img src="./images/aboutus3.jpg" alt="Fjords" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div><br><br>
+    <div class="container text-white text-center">
+      <h1>Hakkımızda</h1>
+      <p>Türkiye'nin en iyi fitness merkezlerinden biri olarak geniş çapta tanınan X-Fit, sadece bir spor salonu değil,
+        bir yaşam biçimidir. X-Fit, en iyi Bollywood yıldızları ve uluslararası sporcular tarafından onaylanan, ISO
+        sertifikalı bir 9001-2008 şirketidir. Ekipman seçimimiz eğitim ve fitness departmanımız tarafından yapılır. Aynı
+        ekipman Amerikan Ordusu ve Manchester United ve Alman futbol takımları tarafından da kullanılıyor.
+
+        Bu girişimin arkasındaki amaç, yüksek nitelikli ve deneyimli profesyonellerin gözetiminde nihai bir fitness
+        deneyimi sunmaktı. X-Fit kulüpler zinciri, ülke çapında ve uluslararası alanda genişlemekte ve size lüks bir
+        fitness deneyimi yaşatmaktadır. Standartlarımız, markanın vaadini yerine getirmek ve alakalı olmak için
+        periyodik olarak iyileştirilir. Üyelerimizle büyük bir uyum paylaşan, ihtiyaçlarını birinci öncelikte göz önünde
+        bulunduran ve hedeflerine ulaşma yolunda her adımda yanlarında olan Deneyimli bir ekibin yanındayız.
+    </div>
+    </p>
+  </div><br><br>
+
+
+  <!--About Us ends-->
+  <div id="opportunities">
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/sportcenter.jpg" alt="Sport Center" class="d-block w-100">
+          <div class="carousel-caption bg-dark">
+            <h3>Spor Salonu</h3>
+            <p>Ekipmanlarımız tamamen yenilendi ve sizleri bekliyor!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/pool.jpg" alt="Pool" class="d-block w-100">
+          <div class="carousel-caption bg-dark">
+            <h3>Kapalı Yüzme Havuzu</h3>
+            <p>Bakımı ve kontrolü son derece hijyenik şartlarda yapılan kapalı yüzme havuzumuzu yaz ve kış aylarında
+              kullanabilirsiniz!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/sauna.jpg" alt="Sauna" class="d-block w-100">
+          <div class="carousel-caption bg-dark">
+            <h3>Sauna</h3>
+            <p>Bakımı ve kontrolü son derece hijyenik şartlarda yapılan saunamızda spor sonrasında dinlenebilirsiniz!
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+
+
+
+    <!-- carousel ends-->
+  </div>
+
+  <br> <br>
+  <br> <br><br> <br><br>
+
+  <div id="price">
+    <!--Container Starts-->
+    <div class="container bg-background-black">
+      <div class="row row-cols-2 row-cols-lg-3 bg-background-black">
+        <!--column1-->
+        <div class="col">
+          <div class="card bg-card my-5" style="width: 18rem;">
+            <!-- <img src="./images/bronze.png" class="card-img-top bg-background-black bg-dark" width="25" height="240"> -->
+            <div class="card-body">
+              <h4 class="card-title text-center text-light fw-bold">Bronz Üyelik</h4>
+              <h6><p class="card-text text-center text-white">Bronz üyelik paketine aşağıdaki özellikler dahildir.</p></h6>
+            </div>
+            <ul class="list-group list-group-flush">
+              <div class="p-3 mb-2 bg-success text-white text-center">Spor salonu kullanımı</div>
+              <div class="p-3 mb-2 bg-danger text-white text-center">Antrenörle birlikte çalışma</div>
+              <div class="p-3 mb-2 bg-danger text-white text-center">Havuz kullanımı</div>
+              <div class="p-3 mb-2 bg-danger text-white text-center">Sauna kullanımı</div>
+              <div class="p-3 mb-2 bg-danger text-white text-center">Diyetisyen desteği</div>
+            </ul>
+            <div class="card-body text-center">
+              <a href="#" class="btn bg-gradient text-light">Sipariş ver</a>
+            </div>
+          </div>
+        </div>
+        <!--column2-->
+        <div class="col">
+          <div class="card bg-card" style="width: 18rem;">
+            <div class="card-body">
+              <h4 class="card-title text-center text-light fw-bold">Gold Üyelik</h4>
+              <h6><p class="card-text> text-center text-white">Gold üyelik paketine aşağıdaki özellikler dahildir.</p></h6>
+            </div>
+            <ul class="list-group list-group-flush">
+              <div class="p-3 mb-2 bg-success text-white text-center">Spor salonu kullanımı</div>
+              <div class="p-3 mb-2 bg-success text-white text-center">Antrenörle birlikte çalışma</div>
+              <div class="p-3 mb-2 bg-success text-white text-center">Havuz kullanımı</div>
+              <div class="p-3 mb-2 bg-success text-white text-center">Sauna kullanımı</div>
+              <div class="p-3 mb-2 bg-success text-white text-center">Diyetisyen desteği</div>
+            </ul>
+            <div class="card-body text-center">
+              <a href="#" class="btn bg-gradient text-light">Sipariş ver</a>
+            </div>
+          </div>
+        </div>
+        <!--column3-->
+        <div class="col">
+          <div class="card bg-card my-5" style="width: 18rem;">
+            <div class="card-body">
+              <h4 class="card-title text-center text-light fw-bold">Silver Üyelik</h4>
+              <h6><p class="card-text text-center text-white">Silver üyelik paketine aşağıdaki özellikler dahildir.</p></h6>
+            </div>
+            <ul class="list-group list-group-flush">
+              <div class="p-3 mb-2 bg-success text-white text-center">Spor salonu kullanımı</div>
+              <div class="p-3 mb-2 bg-success text-white text-center">Antrenörle birlikte çalışma</div>
+              <div class="p-3 mb-2 bg-success text-white text-center">Havuz kullanımı</div>
+              <div class="p-3 mb-2 bg-danger text-white text-center">Sauna kullanımı</div>
+              <div class="p-3 mb-2 bg-danger text-white text-center">Diyetisyen desteği</div>
+            </ul>
+            <div class="card-body text-center">
+              <a href="#" class="btn bg-gradient text-light">Sipariş ver</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Container Ends-->
+
+  <br> <br><br> <br><br> <br><br> <br><br> <br><br><br><br><br><br>
+
+  <!-- footer starts-->
+  <footer class="footer-grape bg-gradient">
+    <div class="container my-2">
+      <div class="row">
+        <div class="col-sm-3 mb40">
+          <div id="contact">
+            <div class="p-5 bg-gradient text-white start">
+              <br><br>
+              <h3><i class="bi bi-globe"></i>X-Fit</h3>
+
+              Bizlere sosyal medya hesaplarımız üzerinden de ulaşabilirsiniz.<br><br>
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-whatsapp"></i>
+              <i class="bi bi-twitter"></i>
+              <i class="bi bi-instagram"></i>
+
+
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-1"></div>
+
+        <div class="col-sm-3 mb40">
+          <div class="p-5 bg-gradient text-white">
+            <u1 class="contact-info mb10">
+            <br><br>
+            <h3>Adres</h3>
+            <i class="bi bi-house"></i>
+            Kocaeli Üniversitesi
+            <br/>
+            Umuttepe Yerleşkesi
+            <br/>
+            Mühendislik Fakültesi<br> Mekatronik Mühendisliği <br>
+            A Blok 2.Kat
+            <br>
+            41380, İzmit/KOCAELİ
+            <br />
+            <br>
+            <i class="bi bi-phone"></i>
+            +90 (262) 303 32 26
+            <br><br>
+            <i class="bi bi-envelope"></i>
+            180223004@kocaeli.edu.tr
+          </u1>
+          </div>
+        </div>
+
+        <div class="col-5 mb20">
+          <div class="p-5 bg-gradient text-white">
+            <br><br>
+            <h3>Harita</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12077.025021074343!2d29.9217153!3d40.8223347!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc81fa849234e8755!2sKocaeli%20University!5e0!3m2!1sen!2str!4v1636046511775!5m2!1sen!2str" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </footer>
+  <!-- footer ends-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
